@@ -1,0 +1,103 @@
+body, html, *{margin:0; padding:0;}
+
+.container {
+    display: flex;
+}
+
+.horizontal, .vertical {
+    width: 106px;
+    height: 106px;
+    display: inline-block;
+    margin: 0 5px;
+    border: 1px solid grey;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.horizontal {
+    
+}
+
+.horHead {
+    height: 36px;
+    background-color: #23386a;
+    color: #fff;
+}
+
+.horHead p {
+    padding: 7px 10px;
+}
+
+.horNumb {
+    height: 63px;
+    color: #ea5700;
+}
+
+.horNumb img {
+   position: absolute;
+    margin: 0 44px;
+    
+}
+
+.horNumb p {
+    font-size: 27px;
+    position: absolute;
+    margin: 19px 18px;
+}
+
+.horLine {
+    height: 7px;
+    margin-bottom: 10px;
+    display: block;
+    position: relative;
+    background-color: #dbeaff;
+}
+
+.square-small {
+    display: block;
+    position: absolute;
+    background-color: #ea5700;
+   /* width: 20px; */
+    height: 7px;
+}
+
+.gauge img {
+    width: 60px;
+    animation: spin 3s linear infinite;
+}
+
+.container2{
+    display: flex;
+}
+.verLine {
+    width: 7px;
+    position: relative;
+    background-color: #ea5700;
+}
+
+.horNumb2 {
+    height: 70px;
+    width: 99px;
+    color: #ea5700;
+}
+
+.horNumb2 img {
+   position: absolute;
+    margin: 0 44px;
+    
+}
+
+.horNumb2 p {
+    font-size: 27px;
+    position: absolute;
+    margin: 19px 14px;
+}
+
+.square-small2 {
+    display: block;
+    position: absolute;
+    background-color: #dbeaff;
+    width: 7px; 
+    height: 20px; /* */
+}
+
+/*@keyframes spin { 50% { transform:rotate(360deg); } } */
